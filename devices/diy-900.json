@@ -146,6 +146,82 @@
   },
   {
     "category": "DIY 900 MHz",
+    "name": "DIY 900 RX TTGO V1 SX127x",
+    "targets": [
+      {
+        "flashingMethod": "UART",
+        "name": "DIY_900_RX_TTGO_V1_SX127x_via_UART"
+      },
+      {
+        "flashingMethod": "BetaflightPassthrough",
+        "name": "DIY_900_RX_TTGO_V1_SX127x_via_BetaflightPassthrough"
+      },
+      {
+        "flashingMethod": "WIFI",
+        "name": "DIY_900_RX_TTGO_V1_SX127x_via_WIFI"
+      }
+    ],
+    "userDefines": [
+      "REGULATORY_DOMAIN_AU_915",
+      "REGULATORY_DOMAIN_EU_868",
+      "REGULATORY_DOMAIN_FCC_915",
+      "REGULATORY_DOMAIN_IN_866",
+      "BINDING_PHRASE",
+      "HYBRID_SWITCHES_8",
+      "ENABLE_TELEMETRY",
+      "ARM_CHANNEL",
+      "LOCK_ON_FIRST_CONNECTION",
+      "AUTO_WIFI_ON_BOOT",
+      "AUTO_WIFI_ON_INTERVAL",
+      "HOME_WIFI_SSID",
+      "HOME_WIFI_PASSWORD",
+      "RCVR_UART_BAUD",
+      "RCVR_INVERT_TX"
+    ],
+    "wikiUrl": "https://www.expresslrs.org/quick-start/receivers/diy900/",
+    "deviceType": "ExpressLRS",
+    "aliases": []
+  },
+  {
+    "category": "DIY 900 MHz",
+    "name": "DIY 900 RX TTGO V2 SX127x",
+    "targets": [
+      {
+        "flashingMethod": "UART",
+        "name": "DIY_900_RX_TTGO_V2_SX127x_via_UART"
+      },
+      {
+        "flashingMethod": "BetaflightPassthrough",
+        "name": "DIY_900_RX_TTGO_V2_SX127x_via_BetaflightPassthrough"
+      },
+      {
+        "flashingMethod": "WIFI",
+        "name": "DIY_900_RX_TTGO_V2_SX127x_via_WIFI"
+      }
+    ],
+    "userDefines": [
+      "REGULATORY_DOMAIN_AU_915",
+      "REGULATORY_DOMAIN_EU_868",
+      "REGULATORY_DOMAIN_FCC_915",
+      "REGULATORY_DOMAIN_IN_866",
+      "BINDING_PHRASE",
+      "HYBRID_SWITCHES_8",
+      "ENABLE_TELEMETRY",
+      "ARM_CHANNEL",
+      "LOCK_ON_FIRST_CONNECTION",
+      "AUTO_WIFI_ON_BOOT",
+      "AUTO_WIFI_ON_INTERVAL",
+      "HOME_WIFI_SSID",
+      "HOME_WIFI_PASSWORD",
+      "RCVR_UART_BAUD",
+      "RCVR_INVERT_TX"
+    ],
+    "wikiUrl": "https://www.expresslrs.org/quick-start/receivers/diy900/",
+    "deviceType": "ExpressLRS",
+    "aliases": []
+  },
+  {
+    "category": "DIY 900 MHz",
     "name": "DIY 900 RX ESP8285 SX127x",
     "targets": [
       {
